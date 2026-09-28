@@ -66,3 +66,39 @@ El backend no se ejecuta directamente en el ordenador del usuario, sino en los s
 
 ---
 
+## 4. Recorrido de una petición
+
+El funcionamiento básico de una petición puede representarse de la siguiente manera:
+
+```text
+              USUARIO
+                 |
+                 | Interacción
+                 v
+        +-------------------+
+        |     NAVEGADOR     |
+        |     FRONTEND      |
+        +-------------------+
+                 |
+                 | Petición HTTPS
+                 v
+        +-------------------+
+        |     SERVIDOR      |
+        |      BACKEND      |
+        +-------------------+
+                 |
+                 | Procesamiento
+                 v
+        +-------------------+
+        | Datos / Servicios |
+        +-------------------+
+                 |
+                 | Respuesta
+                 v
+        +-------------------+
+        |     NAVEGADOR     |
+        |     FRONTEND      |
+        +-------------------+
+                 |
+                 v
+              USUARIO
