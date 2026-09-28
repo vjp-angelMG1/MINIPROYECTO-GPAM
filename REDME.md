@@ -16,7 +16,7 @@ El objetivo de este proyecto es conocer mejor cómo se divide una aplicación we
 
 **Aplicación:** YouTube
 
-**Página web:** https://www.youtube.com/
+**Página web:** <https://www.youtube.com/>
 
 Para realizar el análisis nos hemos centrado en una acción bastante sencilla: **buscar un vídeo en YouTube y acceder a los resultados**.
 
@@ -118,17 +118,14 @@ A continuación observamos una captura de la pantalla DevTools(pestaña) mostran
 
 En la captura podemos ver tres peticiones realizadas por YouTube:
 
-- **Primera:** código `204`, tarda `117 ms` y no devuelve contenido.
-- **Segunda:** código `301`, tarda `71 ms` y realiza una redirección.
-- **Tercera:** código `200`, tarda `393 ms` y se realiza correctamente.
-
+- **Primera:** código `204` (Sin contenido), tarda `117 ms` y no devuelve contenido.
+- **Segunda:** código `301` (Transladado permanentemente), tarda `71 ms` y realiza una redirección.
+- **Tercera:** código `200` (Correcto), tarda `393 ms` y se realiza correctamente.
 
 Esto nos muestra que, mientras usamos YouTube, el navegador realiza diferentes peticiones al servidor en segundo plano.
+
 ![Ejemplo concreto](./IMG/EjemploConcreto.png)
 
 Aquí podemos ver la captura completa en la que se comprueba que es de la aplicacion YouTube.
 
 ![Ejemplo completo](./IMG/EjemploCompleto.png)
-
-
-
