@@ -102,3 +102,10 @@ El funcionamiento básico de una petición puede representarse de la siguiente m
                  |
                  v
               USUARIO
+```
+
+## 5. Ejemplos de peticiones
+
+![Ejemplo completo](./IMG/EjemploCompleto.png)
+
+![Ejemplo concreto](./IMG/EjemploConcreto.png)
