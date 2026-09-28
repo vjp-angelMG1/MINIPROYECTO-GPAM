@@ -9,6 +9,7 @@ YouTube es una plataforma de vídeo que permite a los usuarios buscar, reproduci
 El objetivo de este proyecto es analizar qué parte corresponde al frontend, qué parte corresponde al backend y cómo se comunican mediante peticiones HTTP/HTTPS.
 
 ---
+
 ## 2. Aplicación elegida
 
 **Aplicación:** YouTube
@@ -26,3 +27,42 @@ La acción que vamos a analizar es la siguiente:
 7. El usuario selecciona un vídeo y comienza su reproducción.
 
 ---
+
+## 3. Arquitectura cliente-servidor
+
+YouTube utiliza una arquitectura basada en la comunicación entre un **cliente** y diferentes servicios del lado del **servidor**.
+
+### Cliente / Frontend
+
+El cliente es principalmente el navegador web del usuario.
+
+En el frontend se ejecutan elementos como:
+
+- HTML.
+- CSS.
+- JavaScript.
+- Interfaz de usuario.
+- Buscador.
+- Lista de vídeos.
+- Botones y controles.
+- Reproductor de vídeo.
+
+El navegador se encarga de mostrar la información y de responder a las acciones realizadas por el usuario.
+
+### Servidor / Backend
+
+El backend se ejecuta en los servidores de YouTube.
+
+Entre sus funciones se encuentran:
+
+- Recibir peticiones de los clientes.
+- Procesar las búsquedas.
+- Obtener información sobre vídeos.
+- Gestionar usuarios y cuentas.
+- Proporcionar datos al frontend.
+- Gestionar diferentes servicios relacionados con la reproducción de vídeos.
+
+El backend no se ejecuta directamente en el ordenador del usuario, sino en los servidores de la plataforma.
+
+---
+
